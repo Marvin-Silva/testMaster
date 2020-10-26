@@ -2,6 +2,8 @@ package yannick;
 
 import org.junit.jupiter.api.Test;
 
+import yannick.Java.App;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -12,6 +14,7 @@ class AppTest {
      * Rigorous Test.
      */
     @Test
+<<<<<<< HEAD
 
 
     public void name() {
@@ -19,4 +22,10 @@ class AppTest {
 		assertEquals("Hello World", App.name(""), "blank name");
 		assertEquals("Hello Manu", App.name("Manu"), "Manu name");
 	}
+=======
+    
+    public void name() {
+        assertEquals("Hello Aurèle3000", App.name("Aurèle3000"), "Aurèlename");
+    }
+>>>>>>> aurele
 }
