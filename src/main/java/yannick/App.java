@@ -4,22 +4,22 @@ package yannick;
  * Hello world!
  */
 public final class App {
+
         private App() {}
- 
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
-   /*  public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
- */
-
-         public static String name(String name ){
-
-            
+         public static String nameYannick(String name ){
+            return "Hello " + name;
+         }
+         public static String nameAurele(String name ){
+            return "Hello" + name;
+         }
+         public static String nameYaz(String name ){
+            return "Hello " + name;
+         }
+         public static String nameMarvin(String name ){
+            return "Hello " + name;
+         }
+         public static String nameDonnat(String name ){
             return "Hello " + name;
          }
 }
