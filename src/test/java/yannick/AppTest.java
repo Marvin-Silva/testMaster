@@ -12,8 +12,11 @@ class AppTest {
      * Rigorous Test.
      */
     @Test
-    void name() {
-		assertEquals("Hello World", Series1.helloWorld(null), "null name");
-		assertEquals("Hello World", Series1.helloWorld(""), "blank name");
-		assertEquals("Hello Manu", Series1.helloWorld("Manu"), "Manu name");
+
+
+    public void name() {
+		assertEquals("Hello World", App.name(null), "null name");
+		assertEquals("Hello World", App.name(""), "blank name");
+		assertEquals("Hello Manu", App.name("Manu"), "Manu name");
 	}
+}

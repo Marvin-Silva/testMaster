@@ -1,11 +1,11 @@
-package yannick;
+package yannick.Java;
 
 /**
  * Hello world!
  */
 public final class App {
     private App() {
-    }
+ 
 
     /**
      * Says hello to the world.
@@ -17,6 +17,9 @@ public final class App {
 }
  */
 
- public String name(String name ){
+ public static String name(String name ){
      return "Hello " + name;
  }
+
+
+}
