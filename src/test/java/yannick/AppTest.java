@@ -15,8 +15,7 @@ class AppTest {
 
 
     public void name() {
-		assertEquals("Hello World", App.name(null), "null name");
-		assertEquals("Hello World", App.name(""), "blank name");
-		assertEquals("Hello Manu", App.name("Manu"), "Manu name");
+		
+		assertEquals("Hello Yannick", App.name("Yannick"), "yannick name");
 	}
 }
