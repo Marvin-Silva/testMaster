@@ -16,6 +16,7 @@ public final class App {
      * @param args The arguments of the program.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
    /*  public static void main(String[] args) {
         System.out.println("Hello World!");
     }
@@ -38,3 +39,14 @@ public final class App {
      }
     }
 >>>>>>> aurele
+=======
+   /* public static void main(String[] args) {
+        System.out.println("Hello World!");*/
+
+        public static String name (String name){
+
+            return "Hello Yaz";
+        }
+    }
+
+>>>>>>> yaz
