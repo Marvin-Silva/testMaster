@@ -1,3 +1,7 @@
-h1 {
+.name {
     color: brown;
+}
+
+#yannick {
+    background-color: aquamarine;
 }
