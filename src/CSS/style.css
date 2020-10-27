@@ -1,9 +1,31 @@
-h1 {
+.name {
     color: brown;
 }
 
 .presentation {
         text-align: center;
         background-color:#464e54;
+}
     
+.myName {
+color : navy;
+font-family: "century gothic";
+font-size: 56px;
+text-align: center;
+}
+
+#Yas {
+
+    color : navy;
+    font-family : "gothic"
+}
+
+#yannick {
+    background-color: aquamarine;
+}
+#marvin{
+    border: 2px solid;
+    width: 368px;
+    background-color: blueviolet;
+    color: aliceblue;
 }
