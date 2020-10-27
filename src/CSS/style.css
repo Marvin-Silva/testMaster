@@ -1,3 +1,16 @@
 h1 {
     color: brown;
 }
+
+.myName {
+color : navy;
+font-family: "century gothic";
+font-size: 56px;
+text-align: center;
+}
+
+#Yas {
+
+    color : navy;
+    font-family : "gothic"
+}
