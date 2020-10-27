@@ -2,8 +2,11 @@ package yannick;
 
 import org.junit.jupiter.api.Test;
 
+<<<<<<< HEAD
 import yannick.java.App;
 
+=======
+>>>>>>> 7d7094c434ddd142962498e3f580c84f52fc5e88
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -16,6 +19,7 @@ class AppTest {
      * @return
      */
     @Test
+<<<<<<< HEAD
 
 
     public void name() {
@@ -30,16 +34,28 @@ class AppTest {
      */
     public void name() {
         assertEquals("Hello Yas", App.name("Yaz"),"Hello Yaz");
-
-        /*void hello() {
-		assertEquals("Hello World", Series1.helloWorld(null), "null name");*/
-
+=======
+>>>>>>> 7d7094c434ddd142962498e3f580c84f52fc5e88
 
 
+
+    public void nameYannick() {
+    assertEquals("Hello Yannick", App.nameYannick("Yannick"), "yannick name");
+	  }
+
+    public void nameAurele() {
+      assertEquals("Hello Aurèle3000", App.nameAurele("Aurèle3000"), "Aurèlename");
     }
-    
 
-}
+    public void nameYaz() {
+      assertEquals("Hello Yaz", App.nameYaz("Yaz"),"Hello Yaz");
+    }
 
+    public void nameMarvin() {
+      assertEquals("Hello Marvin", App.nameMarvin("Marvin"),"Marvin name");;
+    }
 
->>>>>>> yaz
+    public void nameDonnat() {
+      assertEquals("Hello Donnat", App.nameDonnat("Donnat"),"Donnat name");;
+    }
+  }

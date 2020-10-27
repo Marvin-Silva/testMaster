@@ -1,4 +1,4 @@
-h1 {
+.name {
     color: brown;
 }
 
@@ -13,4 +13,14 @@ text-align: center;
 
     color : navy;
     font-family : "gothic"
+}
+
+#yannick {
+    background-color: aquamarine;
+}
+#marvin{
+    border: 2px solid;
+    width: 368px;
+    background-color: blueviolet;
+    color: aliceblue;
 }
